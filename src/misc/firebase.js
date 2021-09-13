@@ -3,6 +3,7 @@ import firebase from "firebase/app";
 const config = {
   apiKey: "AIzaSyA8CixEalg4ZgLRQK9QAA92e1n8shlHNfc",
   authDomain: "chat-web-app-768fb.firebaseapp.com",
+  databaseURL: "https://chat-web-app-768fb-default-rtdb.firebaseio.com",
   projectId: "chat-web-app-768fb",
   storageBucket: "chat-web-app-768fb.appspot.com",
   messagingSenderId: "122227243529",
