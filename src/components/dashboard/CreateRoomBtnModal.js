@@ -27,8 +27,8 @@ const INITIAL_FORM = {
 };
 
 const CreateRoomBtnModal = () => {
-  const { isOpen, open, close } = useModalState(INITIAL_FORM);
-  const [formValue, setFormValue] = useState();
+  const { isOpen, open, close } = useModalState();
+  const [formValue, setFormValue] = useState(INITIAL_FORM);
   const [isLoading, setIsLoading] = useState(false);
   const formRef = useRef();
 
