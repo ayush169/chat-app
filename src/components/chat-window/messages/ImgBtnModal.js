@@ -2,7 +2,7 @@ import React from "react";
 import { Modal } from "rsuite";
 import { useModalState } from "../../../misc/custom-hooks";
 
-const ImgBtnModal = (src, fileName) => {
+const ImgBtnModal = ({ src, fileName }) => {
   const { isOpen, open, close } = useModalState();
 
   return (
